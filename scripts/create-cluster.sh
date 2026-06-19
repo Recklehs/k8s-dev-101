@@ -24,5 +24,4 @@ kubectl wait --for=condition=Ready node --all --timeout=120s
 
 echo "클러스터 준비 완료"
 kubectl get nodes
-EOF
 
